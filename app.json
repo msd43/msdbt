@@ -7,104 +7,104 @@
   "stack": "container",
 "env": {
   "OWNER_NAME": {
-  "description": "Bot Sahibinin Adı",
-      "value": "MSD"
+  "description": "Name of Bot Owner",
+      "value": "Mr.Ameesha"
   },
   "ALIVE_MESSAGE": {
-    "description": "Alive message for bo",
+    "description": "Alive message for bot",
      "required" :false
     },
     "HEROKU_API_KEY": {
-    "description": "HEROKU API ANAHTARINI koyun",
+    "description": "Put HEROKU API KEY",
      "required" :false
     },
   "HEROKU_APP_NAME": {
-    "description": "HEROKU UYGULAMA ADI'nı yukarıdakiyle aynı şekilde koyun.",
+    "description": "Put HEROKU APP NAME same as above.",
      "required" :false
     },
     "AUTO_STATUS_SAVER": {
-      "description": "Her kişinin durumunu otomatik olarak kaydeder ve günlük numarasını gönderir.",
+      "description": "Automatically saves status of every person and sends in log number.",
        "value": "false",
        "required" :false
       },
     "AUTO_BIO": {
-      "description": "Bot biyografisini otomatik olarak değiştir",
+      "description": "Automatically change bot bio",
        "value": "false",
        "required" :false
       },
     "ALWAYS_ONLINE": {
-       "description": "Botu her zaman çevrimiçi göster.",
+       "description": "always show bot online.",
        "value": "true",
        "required" :false
       },
    "ALIVE_IMAGE": {
-    "description": "Bot için KÜÇÜK RESİM.",
-     "value": "https://i.hizliresim.com/t0vtg9c.png"
+    "description": "THUMBNAIL for bot.",
+     "value": "https://i.ibb.co/NF7FbF2/20230604-132133.png"
     },
     "ANTI_BAD_WORD": {
-    "description": "Kelimeleri buraya koyun. Botunuzda etkinleştirilmesini istiyorsanız, aksi halde boş bırakın",
+    "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
      "required" :false
     },
    "ANTILINK_VALUES": {
-    "description": "Antilink için kelimeler koy",
-     "value": "",
+    "description": "Put words for antilink",
+     "value": "chat.whatsapp.com,fb.com,instagram.com",
      "required" :false
     },
      "ANTILINK_ACTION": {
-    "description": "Antilink için eylem koyun",
+    "description": "Put action for antilink",
      "value": "remove",
      "required" :false
     },
       "READ_MESSAGE": {
-    "description": "Botun tüm mesajları okumasını istiyorsanız true değerini girin.",
+    "description": "Fill the value true if you want bot to read all messages.",
      "required" :false,
      "value": "true"
     },
    "DISABLE_PM": {
-    "description": "Pm'de botu devre dışı bırak",
+    "description": "Disable bot in pm",
      "required" :false
     },
       "PREFIX": {
-  "description": "Bot için istediğiniz öneki girin.",
+  "description": "Enter your desired prefix for bot.",
       "value": "."
   },
   "OWNER_NUMBER": {
-    "description": "Bot için yönetici olmasını istediğiniz kullanıcıların telefon numaraları (uluslararası formatta + olmadan olmalı ve birden fazla numara virgülle ayrılmalıdır. \",\")",
-       "value": "79619201711,905510718257,905417885432,905541025879,905313299422,905427885432"
+    "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
+       "value": "94767453646"
   },
    "SESSION_ID": {
-    "description": "Lütfen SESSION_ID'nizi buraya girin, Alın - https://replit.com/@AmiyaProgrammer/Dragon-MD-V4-QR?v=1"
+    "description": "Please put your SESSION_ID here, Get from - https://replit.com/@AmiyaProgrammer/Dragon-MD-V4-QR?v=1"
   },
     "OPENAI_API_KEY": {
-    "description": "Lütfen OPENAI api anahtarınızı buraya girin. Beta.openai.com adresinden alın. ",
-       "value": "Beni Değiştir(isteğe bağlı)",
+    "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
+       "value": "Replace Me(optional)",
        "required" :false
   },
   "MONGODB_URI": {
-    "description": "Mongodb Connection için gizli bir Dizi. (Daha iyi bir deneyim için değiştirin)",
+    "description": "A secret String for Mongodb Connection.(Replace for better experience)",
     "value": "mongodb://uo3jchzao8gjikfq6hfh:cBHadZTbSTuIL3onRDM@boubhk1i5rpnknjfzbsk-mongodb.services.clever-cloud.com:2837/boubhk1i5rpnknjfzbsk",
     "required" :false
   },
     "THEME": {
-    "description": "Kullanmak istediğiniz tema adını girin. Mevcut temalar SI , EN, TR'dir.",
-     "value": "TR"
+    "description": "Put the theme name you want to use. Avilable themes are SI , EN",
+     "value": "SI"
   },
     "WORKTYPE": {
-  "description": "Botunuzun çalışma türü. Public veya private kullanın, eğer private ise sadece bot numarası kullanabilir. Herkese açıksa, herkes kullanabilir.",
+  "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
          "value": "public"
   },
   "PACK_INFO": {
-    "description": "Paket adı;yazar adı koyun.",
-     "value": "MSD BOT ✔;MSD",
+    "description": "Put packname;authorname.",
+     "value": "ᴅʀᴀɢᴏɴ-ᴍᴅ (ᴠ𝟺.𝟶) ✔;ᴍʀ.ᴀᴍᴇᴇsʜᴀ",
      "required": false 
   },
   "CAPTION": {
-    "description": "Başlığınızı koyun.",
-     "value": "_*🪄 MSD BOT 🪄*_",
+    "description": "Put Your Caption.",
+     "value": "_*🪄 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐎𝐮𝐫 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🪄*_ \nhttps://youtube.com/@Dragon-MD-OFC",
      "required": false 
   },
   "heroku": {
-    "description": "Heroku'da olup olmadığı hakkında hava durumu",
+    "description": "Weather it is on heroku or not",
      "value": "true",
      "required": false 
   }
