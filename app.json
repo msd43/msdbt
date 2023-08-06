@@ -1,8 +1,8 @@
 {
-  "name": "MSD BOT",
-  "description": "Deneyimi daha iyi hale getirmek için NodeJ'lerde yerleşik bir Whatsapp md botu",
-  "logo": "https://i.hizliresim.com/t0vtg9c.png",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "MSD", "MSD BOT""multi device"],
+  "name": "Dragon-MD-V4",
+  "description": "A Whatsapp md bot built in NodeJs to make experience better",
+  "logo": "https://i.ibb.co/wRgDy33/20221104-225109.png",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "Dragon-MD-V4", "DragonBot", "Dragon","DragonMD","multi device"],
   "success_url": "/",
   "stack": "container",
 "env": {
