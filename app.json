@@ -1,110 +1,110 @@
 {
-  "name": "Dragon-MD-V4",
-  "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://i.ibb.co/wRgDy33/20221104-225109.png",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "Dragon-MD-V4", "DragonBot", "Dragon","DragonMD","multi device"],
+  "name": "MSD BOT",
+  "description": "Deneyimi daha iyi hale getirmek için NodeJ'lerde yerleşik bir Whatsapp md botu",
+  "logo": "https://i.hizliresim.com/t0vtg9c.png",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "MSD", "MSD BOT""multi device"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
-  "description": "Name of Bot Owner",
-      "value": "Mr.Ameesha"
+  "description": "Bot Sahibinin Adı",
+      "value": "MSD"
   },
   "ALIVE_MESSAGE": {
-    "description": "Alive message for bot",
+    "description": "Alive message for bo",
      "required" :false
     },
     "HEROKU_API_KEY": {
-    "description": "Put HEROKU API KEY",
+    "description": "HEROKU API ANAHTARINI koyun",
      "required" :false
     },
   "HEROKU_APP_NAME": {
-    "description": "Put HEROKU APP NAME same as above.",
+    "description": "HEROKU UYGULAMA ADI'nı yukarıdakiyle aynı şekilde koyun.",
      "required" :false
     },
     "AUTO_STATUS_SAVER": {
-      "description": "Automatically saves status of every person and sends in log number.",
+      "description": "Her kişinin durumunu otomatik olarak kaydeder ve günlük numarasını gönderir.",
        "value": "false",
        "required" :false
       },
     "AUTO_BIO": {
-      "description": "Automatically change bot bio",
+      "description": "Bot biyografisini otomatik olarak değiştir",
        "value": "false",
        "required" :false
       },
     "ALWAYS_ONLINE": {
-       "description": "always show bot online.",
+       "description": "Botu her zaman çevrimiçi göster.",
        "value": "true",
        "required" :false
       },
    "ALIVE_IMAGE": {
-    "description": "THUMBNAIL for bot.",
-     "value": "https://i.ibb.co/NF7FbF2/20230604-132133.png"
+    "description": "Bot için KÜÇÜK RESİM.",
+     "value": "https://i.hizliresim.com/t0vtg9c.png"
     },
     "ANTI_BAD_WORD": {
-    "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
+    "description": "Kelimeleri buraya koyun. Botunuzda etkinleştirilmesini istiyorsanız, aksi halde boş bırakın",
      "required" :false
     },
    "ANTILINK_VALUES": {
-    "description": "Put words for antilink",
-     "value": "chat.whatsapp.com,fb.com,instagram.com",
+    "description": "Antilink için kelimeler koy",
+     "value": "",
      "required" :false
     },
      "ANTILINK_ACTION": {
-    "description": "Put action for antilink",
+    "description": "Antilink için eylem koyun",
      "value": "remove",
      "required" :false
     },
       "READ_MESSAGE": {
-    "description": "Fill the value true if you want bot to read all messages.",
+    "description": "Botun tüm mesajları okumasını istiyorsanız true değerini girin.",
      "required" :false,
      "value": "true"
     },
    "DISABLE_PM": {
-    "description": "Disable bot in pm",
+    "description": "Pm'de botu devre dışı bırak",
      "required" :false
     },
       "PREFIX": {
-  "description": "Enter your desired prefix for bot.",
+  "description": "Bot için istediğiniz öneki girin.",
       "value": "."
   },
   "OWNER_NUMBER": {
-    "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "94767453646"
+    "description": "Bot için yönetici olmasını istediğiniz kullanıcıların telefon numaraları (uluslararası formatta + olmadan olmalı ve birden fazla numara virgülle ayrılmalıdır. \",\")",
+       "value": "79619201711,905510718257,905417885432,905541025879,905313299422,905427885432"
   },
    "SESSION_ID": {
-    "description": "Please put your SESSION_ID here, Get from - https://replit.com/@AmiyaProgrammer/Dragon-MD-V4-QR?v=1"
+    "description": "Lütfen SESSION_ID'nizi buraya girin, Alın - https://replit.com/@AmiyaProgrammer/Dragon-MD-V4-QR?v=1"
   },
     "OPENAI_API_KEY": {
-    "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
-       "value": "Replace Me(optional)",
+    "description": "Lütfen OPENAI api anahtarınızı buraya girin. Beta.openai.com adresinden alın. ",
+       "value": "Beni Değiştir(isteğe bağlı)",
        "required" :false
   },
   "MONGODB_URI": {
-    "description": "A secret String for Mongodb Connection.(Replace for better experience)",
+    "description": "Mongodb Connection için gizli bir Dizi. (Daha iyi bir deneyim için değiştirin)",
     "value": "mongodb://uo3jchzao8gjikfq6hfh:cBHadZTbSTuIL3onRDM@boubhk1i5rpnknjfzbsk-mongodb.services.clever-cloud.com:2837/boubhk1i5rpnknjfzbsk",
     "required" :false
   },
     "THEME": {
-    "description": "Put the theme name you want to use. Avilable themes are SI , EN",
-     "value": "SI"
+    "description": "Kullanmak istediğiniz tema adını girin. Mevcut temalar SI , EN, TR'dir.",
+     "value": "TR"
   },
     "WORKTYPE": {
-  "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
+  "description": "Botunuzun çalışma türü. Public veya private kullanın, eğer private ise sadece bot numarası kullanabilir. Herkese açıksa, herkes kullanabilir.",
          "value": "public"
   },
   "PACK_INFO": {
-    "description": "Put packname;authorname.",
-     "value": "ᴅʀᴀɢᴏɴ-ᴍᴅ (ᴠ𝟺.𝟶) ✔;ᴍʀ.ᴀᴍᴇᴇsʜᴀ",
+    "description": "Paket adı;yazar adı koyun.",
+     "value": "MSD BOT ✔;MSD",
      "required": false 
   },
   "CAPTION": {
-    "description": "Put Your Caption.",
-     "value": "_*🪄 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐎𝐮𝐫 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🪄*_ \nhttps://youtube.com/@Dragon-MD-OFC",
+    "description": "Başlığınızı koyun.",
+     "value": "_*🪄 MSD BOT 🪄*_",
      "required": false 
   },
   "heroku": {
-    "description": "Weather it is on heroku or not",
+    "description": "Heroku'da olup olmadığı hakkında hava durumu",
      "value": "true",
      "required": false 
   }
