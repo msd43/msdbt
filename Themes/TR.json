@@ -1,0 +1,55 @@
+{
+  "__JSON__": true,
+  "AUTHOR": "MSD",
+    "LANGUAGE": "Türkçe",
+  "LANGCODE": "tr",
+  "STRINGS": {
+      "updater": {
+          "UPDATE": "*Botunuz zaten en son sürümde efendim*",
+          "NEW_UPDATE": "*Bot için yeni bir güncelleme var!*\n\n*Değişiklikler:*\n",
+          "UPDATED_LOCAL": "*Başarıyla güncellendi!*"
+      },
+      "global": {
+          "botName": "🐉 MSD 🧬",
+          "body": "𝑊ℎ𝑎𝑡𝑠𝑎𝑝𝑝 𝐵𝑜𝑡",
+          "greet2" : "Sayın",
+          "pic1": "https://i.hizliresim.com/73y8klv.png",
+          "pic2": "https://i.hizliresim.com/73y8klv.png",
+          "pic3": "https://i.hizliresim.com/73y8klv.png",
+          "pic4": "https://i.hizliresim.com/73y8klv.png",
+          "pic5": "https://i.hizliresim.com/73y8klv.png",
+          "pic6": "https://i.hizliresim.com/73y8klv.png",
+          "pic7": "https://i.hizliresim.com/73y8klv.png",
+           "greet" : "Sayın",
+         "dotbody" : "Aktifim Bea.",
+          "promote": "Sevgilime Verilen Yönetici Rolü",
+          "pmallow": "*Merhaba,Ben MSD*\n*Ustam'ın bir asistanı.*\nEfendim şu anda meşgul.\nLütfen Mesajınızı Bırakın.\n\n_Mesajınızı en kısa zamanda kendisine bildireceğim......_",
+          "pmblock": "❌ Engellendi*\n\n Spam yaptığınız için engellendiniz.\n\n MSD BOT ⦁ ᴍᴀᴅᴇ ʙʏ MSD\nᴠᴇʀᴛɪᴏɴ 4.0",
+          "pmwarn": "✋Merhaba * \nLütfen spam yapmayın, spam yaptığınız için sizi engellerim. _${checkPermit.times} uyarınız var._\n\n MSD BOT ⦁ ᴍᴀᴅᴇ ʙʏ MSD\nᴠᴇʀᴛɪᴏɴ 4.0",
+          "permited": "Merhaba Sayın ${tname} *\n\nŞimdi Sahibim tarafından şimdi pm atmanıza izin verildi.\n\n MSD BOT ⦁ ᴍᴀᴅᴇ ʙʏ MSD\nᴠᴇʀᴛɪᴏɴ 4.0", 
+          "revoked" : "*Merhaba ${tname} Efendim*\n\nÖdeme izin izniniz şimdi engellendi.\n\n MSD BOT ⦁ ᴍᴀᴅᴇ ʙʏ MSD\nᴠᴇʀᴛɪᴏɴ 4.0",
+          "demote": "Uhh, Yönetici Rolü Geri Alındı",
+          "antlink": "*Bu Grupta Bağlantı Paylaşımı Askıya Alındı ​​‼*",
+          "session": "\n*Bu sizin session.sam.json'unuz, güvenli tutun ve düzgün bir şekilde saklayın*\n_Şimdi Bu json dosyasını Çatallı Deponuza Yükleyin_\n Deponuzu Heroku'ya ve *Deploy Branch*'e bağlayın, Bot Her Zaman çalışacaktır\n\nMSD BOT ⦁ ᴍᴀᴅᴇ ʙʏ MSD\nᴠᴇʀᴛɪᴏɴ 4.0",
+          "mention": " Lütfen herhangi bir kullanıcıdan bahsedin efendim",
+          "title": "🐉 MSD 🧬",
+          "footer": "\nMSD BOT ⦁ ᴍᴀᴅᴇ ʙʏ MSD\nᴠᴇʀᴛɪᴏɴ 4.0",
+          "by": "🐉 MSD 🧬",
+          "chat_desc": "Mevcut Seçenekler* : 1. sessiz\n2. sesi aç\n3. arşiv\n4. arşivden çıkar\n5. okuyun\n6. okunmamış\n7. silmek",
+          "success": "Geri ✓",
+          "dot": "Şunu mu demek istediniz: *yardım?*",
+          "couple_male": "*Yalnız ölmek istemiyorum Karı istiyorum*",
+          "couple_female": "*Yalnız ölmek istemiyorum erkek istiyorum*",
+          "admin": "Bu komut yalnızca grup yöneticisi içindir⚠️!",
+          "botAdmin": "Lütfen bana yönetici rolü verin efendim.❗",
+          "owner": "Bu bir sahip komutudur ⚠️",
+          "group": "Bu özellik sadece gruplar içindir❗",
+          "private": "Bu özellik sadece sahibim için ⚠️",
+          "bot": "Bu özellik sadece bot numarası için⚠️",
+          "wait": "İsteğiniz işleniyor✅" 
+      },
+      "error": {
+          "text": "*Bir Hata Var*"
+      }
+  }
+}
